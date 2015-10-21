@@ -14,6 +14,7 @@
 		CBF044311BD7F843005277C6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBF044301BD7F843005277C6 /* Images.xcassets */; };
 		CBF044341BD7F843005277C6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CBF044321BD7F843005277C6 /* LaunchScreen.xib */; };
 		CBF044401BD7F843005277C6 /* FMTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF0443F1BD7F843005277C6 /* FMTests.m */; };
+		CBF0444B1BD7F9F0005277C6 /* SecViewcontroller.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF0444A1BD7F9F0005277C6 /* SecViewcontroller.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		CBF044391BD7F843005277C6 /* FMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FMTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBF0443E1BD7F843005277C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CBF0443F1BD7F843005277C6 /* FMTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMTests.m; sourceTree = "<group>"; };
+		CBF044491BD7F9F0005277C6 /* SecViewcontroller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecViewcontroller.h; sourceTree = "<group>"; };
+		CBF0444A1BD7F9F0005277C6 /* SecViewcontroller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecViewcontroller.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				CBF044281BD7F843005277C6 /* AppDelegate.m */,
 				CBF0442A1BD7F843005277C6 /* ViewController.h */,
 				CBF0442B1BD7F843005277C6 /* ViewController.m */,
+				CBF044491BD7F9F0005277C6 /* SecViewcontroller.h */,
+				CBF0444A1BD7F9F0005277C6 /* SecViewcontroller.m */,
 				CBF0442D1BD7F843005277C6 /* Main.storyboard */,
 				CBF044301BD7F843005277C6 /* Images.xcassets */,
 				CBF044321BD7F843005277C6 /* LaunchScreen.xib */,
@@ -219,6 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBF0444B1BD7F9F0005277C6 /* SecViewcontroller.m in Sources */,
 				CBF0442C1BD7F843005277C6 /* ViewController.m in Sources */,
 				CBF044291BD7F843005277C6 /* AppDelegate.m in Sources */,
 				CBF044261BD7F843005277C6 /* main.m in Sources */,
@@ -418,6 +424,7 @@
 				CBF044451BD7F843005277C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CBF044461BD7F843005277C6 /* Build configuration list for PBXNativeTarget "FMTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +433,7 @@
 				CBF044481BD7F843005277C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
