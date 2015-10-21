@@ -15,6 +15,7 @@
 		CBF044341BD7F843005277C6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CBF044321BD7F843005277C6 /* LaunchScreen.xib */; };
 		CBF044401BD7F843005277C6 /* FMTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF0443F1BD7F843005277C6 /* FMTests.m */; };
 		CBF0444B1BD7F9F0005277C6 /* SecViewcontroller.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF0444A1BD7F9F0005277C6 /* SecViewcontroller.m */; };
+		CBF0444E1BD7FA56005277C6 /* ThiViewcontroller.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF0444D1BD7FA56005277C6 /* ThiViewcontroller.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,8 @@
 		CBF0443F1BD7F843005277C6 /* FMTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMTests.m; sourceTree = "<group>"; };
 		CBF044491BD7F9F0005277C6 /* SecViewcontroller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecViewcontroller.h; sourceTree = "<group>"; };
 		CBF0444A1BD7F9F0005277C6 /* SecViewcontroller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecViewcontroller.m; sourceTree = "<group>"; };
+		CBF0444C1BD7FA56005277C6 /* ThiViewcontroller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThiViewcontroller.h; sourceTree = "<group>"; };
+		CBF0444D1BD7FA56005277C6 /* ThiViewcontroller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThiViewcontroller.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +93,8 @@
 				CBF0442B1BD7F843005277C6 /* ViewController.m */,
 				CBF044491BD7F9F0005277C6 /* SecViewcontroller.h */,
 				CBF0444A1BD7F9F0005277C6 /* SecViewcontroller.m */,
+				CBF0444C1BD7FA56005277C6 /* ThiViewcontroller.h */,
+				CBF0444D1BD7FA56005277C6 /* ThiViewcontroller.m */,
 				CBF0442D1BD7F843005277C6 /* Main.storyboard */,
 				CBF044301BD7F843005277C6 /* Images.xcassets */,
 				CBF044321BD7F843005277C6 /* LaunchScreen.xib */,
@@ -226,6 +231,7 @@
 			files = (
 				CBF0444B1BD7F9F0005277C6 /* SecViewcontroller.m in Sources */,
 				CBF0442C1BD7F843005277C6 /* ViewController.m in Sources */,
+				CBF0444E1BD7FA56005277C6 /* ThiViewcontroller.m in Sources */,
 				CBF044291BD7F843005277C6 /* AppDelegate.m in Sources */,
 				CBF044261BD7F843005277C6 /* main.m in Sources */,
 			);
